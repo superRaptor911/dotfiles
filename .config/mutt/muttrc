@@ -1,0 +1,26 @@
+set ssl_force_tls = yes
+set abort_nosubject = no
+set mail_check = 60
+set timeout = 10
+set sort = "reverse-date-received"
+set signature = "~/.mutt/signature"
+set copy = no
+
+
+set from = "raptor.inc2018@gmail.com"
+set realname = "Aditya Aravind"
+
+# Imap settings
+set imap_user = "raptor.inc2018@gmail.com"
+set imap_pass = "akjjyglc"
+
+# Smtp settings
+set smtp_url = "smtps://raptor.inc2018@smtp.gmail.com"
+set smtp_pass = "akjjyglc"
+
+# Remote gmail folders
+set folder = "imaps://imap.gmail.com/"
+set spoolfile = "+INBOX"
+set postponed = "+[Gmail]/Drafts"
+set record = "+[Gmail]/Sent Mail"
+set trash = "+[Gmail]/Trash"

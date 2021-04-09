@@ -1,0 +1,3 @@
+[2021-01-28 22:14:55.153] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/raptor/program/servers/shop_software/.vscode'
+[2021-01-28 22:19:10.113] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/php/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/php/package.json'
+[2021-01-28 22:19:10.114] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/php-language-features/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/php-language-features/package.json'

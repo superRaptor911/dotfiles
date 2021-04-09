@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Properties - Chromium Wheel Smooth Scroller</title>
+<link href="options.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="header">
+<img src="wheel.png" id="titlelogo">
+<span class="maintitle">Chromium Wheel Smooth Scroller</span>
+</div>
+
+
+
+<div class="cont">
+
+<div class="box" id="mousebox">
+<div class="boxtitle">Mouse Wheel</div>
+
+<canvas class="grapharea" id="grapharea_w" width="300" height="100" ></canvas>
+
+<div class="boxspacer"></div>
+
+<div class="plabel">Step Size</div>
+<input class="faderlabel" id="w-step" readonly="true" forgraph="grapharea_w">
+<input class="range" type="range" min="0" max="300" step="1"><br>
+<div class="pdesc">
+Count of pixels scroll by a tick of a mouse wheel<br>
+Per-pixel resolution device input is scaled by <span id="pixelscrollscale">1</span>
+</div>
+
+<div class="plabel">Smoothness(Forepart)</div>
+<input class="faderlabel" id="w-pre-smooth" readonly="true" forgraph="grapharea_w">
+<input class="range" type="range" min="0" max="100" step="0.01"><br>
+<div class="pdesc">How smoothly begins to scroll [0 - 100]</div>
+
+<div class="plabel">Smoothness</div>
+<input class="faderlabel" id="w-post-smooth" readonly="true" forgraph="grapharea_w">
+<input class="range" type="range" min="1" max="100" step="0.01"><br>
+<div class="pdesc">Overall smoothness of scrolling [1 - 100]</div>
+
+<div class="plabel">Acceleration Sensitivity</div>
+<input class="faderlabel" id="w-accel" readonly="true">
+<input class="range" type="range" min="0" max="450" step="1"><br>
+<div class="pdesc">How much amplify scroll speed with spinning speed of a mouse wheel [0 - 450]</div>
+
+<div class="plabel">Acceleration by Travel Distance</div>
+<input class="faderlabel" id="accel-travel" readonly="true">
+<input class="range" type="range" min="0.0" max="1.99" step="0.01"><br>
+<div class="pdesc">Boosts speed to provide much faster long distance travel [x0.0 - x100.0]</div>
+
+</div>
+
+<div class="box" id="keyboardbox">
+<div class="boxtitle">Keyboard</div>
+
+<canvas class="grapharea" id="grapharea_k" width="300" height="100" ></canvas>
+
+<div class="boxspacer"></div>
+
+<div class="plabel">Step Size</div>
+<input class="faderlabel" id="k-step" readonly="true" forgraph="grapharea_k">
+<input class="range" type="range" min="0" max="300" step="1"><br>
+<div class="pdesc">Count of pixels scroll by a up/down key push</div>
+
+<div class="plabel">Smoothness(Forepart)</div>
+<input class="faderlabel" id="k-pre-smooth" readonly="true" forgraph="grapharea_k">
+<input class="range" type="range" min="0" max="100" step="0.01"><br>
+<div class="pdesc">How smoothly begins to scroll [0 - 100]</div>
+
+<div class="plabel">Smoothness</div>
+<input class="faderlabel" id="k-post-smooth" readonly="true" forgraph="grapharea_k">
+<input class="range" type="range" min="1" max="100" step="0.01"><br>
+<div class="pdesc">overall smoothness of scrolling [1 - 100]</div>
+
+<div class="plabel">Acceleration Scale</div>
+<input class="faderlabel" id="k-accel" readonly="true">
+<input class="range" type="range" min="0.05" max="4.5" step="0.01"><br>
+<div class="pdesc">Scale factor for a bunch of key events caused by keeping a key pushed [0.05 - 4.5]</div>
+</div>
+
+<div class="box">
+<div class="boxtitle">Misc</div>
+
+<div class="boxspacer"></div>
+
+<div class="plabel">Bouncy Edge</div>
+<input class="faderlabel" id="bouncy-edge" readonly="true">
+<input class="range" type="range" min="0" max="120" step="1"><br>
+<div class="pdesc">Size of bouncy edges (0 to disable) [0 - 120]</div>
+
+<!--
+<div class="plabel">Bouncy Edge Appearance</div>
+<label class="switch"><input id="bouncy-edge-shadow" type="checkbox"><span class="swslider"></span></label><br>
+<div class="boxspacer"></div>
+<div class="pdesc">Show classical shadows on out of bounds regions</div>
+-->
+
+<div class="plabel">Logging</div>
+<label class="switch"><input id="output-log" type="checkbox"><span class="swslider"></span></label><br>
+<div class="boxspacer"></div>
+<div class="pdesc">Output debug logs</div>
+</div>
+
+<div class="box">
+<div class="boxtitle">Black List</div>
+<div class="boxspacer"></div>
+<textarea id="blacklist">
+</textarea>
+<div class="pdesc">URLs by line on which you want to block Chromium Wheel to work (* for wildcard)</div>
+</div>
+
+</div>
+
+<br>
+
+<div class="descbox">
+<div class="desctitle">Known Problems</div>
+<div class="">
+In the implementation of bypassing path of mouse events from cross origin iframes to top frame,
+for determining from which iframe mouse event thrown, we use mouse cursor position at entire screen
+as a consistent information over frames.
+Chrome browser stores no content pane position at any coordinates, whereas Firefox has window.mozInnerScreenX/Y.
+This absense causes problems on finding scroll target on a webpage full of iframes displayed in a content pane placed at
+an inordinary position in a browser window.
+(ex. developer tool is docking on left or top side of browser window)
+</div>
+</div>
+
+<div class="descbox">
+<div class="desctitle">Changelog</div>
+
+<div class="cl_header">2.0.5</div>
+<div class="cl_item">Decided with popularity, we take care of high dpi monitor (ex. retina display) rather than browser zooming funcion in iframe detection. It's ridiculous we have no way to know the difference.</div>
+<br class="cl_separator">
+
+<div class="cl_header">2.0.4</div>
+<div class="cl_item">Explicitly declare wheel event listener as passive:false for maintaining functionality through <a href="https://www.chromestatus.com/feature/6662647093133312">the change</a> in Chrome 56</div>
+<br class="cl_separator">
+
+<div class="cl_header">2.0.3</div>
+<div class="cl_item">Fixed: A glitch when switching scroll target while scrolling</div>
+<br class="cl_separator">
+
+<div class="cl_header">2.0.2</div>
+<div class="cl_item">ShadowDOM support (using Event.composedPath rather than parentNode tracking to find a scroll target)</div>
+<br class="cl_separator">
+
+<div class="cl_header">2.0.1</div>
+<div class="cl_item">Fix bounce animation glitch in a rare case of DOM structure.</div>
+<div class="cl_item">Fix missing mouseup event problem on Mac/Linux. Found a better thing to look at.</div>
+<div class="cl_item">Blacklist hit of top frame also disables scrolling in iframes no matter what URL of itself is</div>
+<br class="cl_separator">
+
+<div class="cl_header">2.0.0</div>
+<div class="cl_item">Bouncy edges are now by Web Animation API not by element insertion. Bouncy edges are available on flex layout pages such as StackExchange.</div>
+<div class="cl_item">Instead of setTimeout(), requestAnimationFrame() is used for animation update. This brings a remarkable improvement of scroll animation.</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.5.1</div>
+<div class="cl_item">Ignores wheel events which are sent from embedded PDF</div>
+<div class="cl_item">Meta+ArrowUp/Down keys support</div>
+<div class="cl_item">More precise optimized inter-frame event transferring</div>
+<div class="cl_item">Chrome's body.scrollTop compatibility issue</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.5.0</div>
+<div class="cl_item">Added: Accelerating long distance scroll feature</div>
+<div class="cl_item">Added: Transparent bouncy edge</div>
+<div class="cl_item">Fixed: Scroll is blocked when cursor is on iframe</div>
+<div class="cl_item">Added: Key filter for &lt;button&gt; element</div>
+<div class="cl_item">Some performance improvements</div>
+<div class="cl_item">Requires no tabs api permission anymore</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.4.2</div>
+<div class="cl_item">Improved bouncing edge insertion algorithm</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.4.1</div>
+<div class="cl_item">Avoid refering elements with absolute style and without top pixels / Fix some web site broken with last version</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.4.0</div>
+<div class="cl_item">Fixed: Less careful speed computation bursts acceleration randomly</div>
+<div class="cl_item">Fixed: Glitch scrolling to top of a page after closing photo preview on Facebook</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.3.11</div>
+<div class="cl_item">Avoidance of potential zero devide bug</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.3.10</div>
+<div class="cl_item">More responsive and accurate acceleration</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.3.9</div>
+<div class="cl_item">Emargency update for the regression step size not functional</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.3.8</div>
+<div class="cl_item">Brushed up acceleration algorithm, more accurate in image rich page</div>
+<div class="cl_item">Moving sliders in options page now immediately change the number on right and a graph above</div>
+<div class="cl_item">Fixed: Deprecated getCSSPropertyValue() issue </div>
+<br class="cl_separator">
+
+<div class="cl_header">1.3.7</div>
+<div class="cl_item">First-aid for missing getCSSPropertyValue() of CSSStyleDeclaration object since Chrome40 </div>
+<br class="cl_separator">
+
+<div class="cl_header">1.3.6</div>
+<div class="cl_item">Fix some typos</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.3.5</div>
+<div class="cl_item">Main wheel event source migrated to "wheel" from "mousewheel" for a collision problem with some extensions</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.3.3</div>
+<div class="cl_item">Change phase listening keyboard events to bubbling phase</div>
+<div class="cl_item">Keyboard events ignored when focused on "object" element</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.3.2</div>
+<div class="cl_item">Compatibility issue raised on Chromium 25.0.1315.0</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.3.1</div>
+<div class="cl_item">Fixed: Stops on old-school frameset page when one frame document url is changed from frame src attribute</div>
+<br class="cl_separator">
+
+
+<div class="cl_header">1.3.0</div>
+<div class="cl_item">All scrolling device is now treated as per-pixel resolution device</div>
+<div class="cl_item">Improve behavior in laggy environment</div>
+<div class="cl_item">iframe info from pages in blacklist is ignored</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.2.0</div>
+<div class="cl_item">Per-pixel resolution device support added</div>
+<div class="cl_item">Now it passes keyboard events when focusing "embed" element (Fixes keyboard problem on YouTube so far)</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.1.1</div>
+<div class="cl_item">Manifest 2 support</div>
+<div class="cl_item">Frames also managed by background page (Fixes frameset pages with current version of chrome)</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.33</div>
+<div class="cl_item">Toolbar icon for quick disable (left click) and extension menu (right click)</div>
+<div class="cl_item">Fix problem attempt to scroll div having a height but hidden by "overflow-y:hidden"</div>
+<div class="cl_item">Improve options page layout</div>
+<div class="cl_item">Fixed: Focusing Google ads of generated iframe</div>
+<div class="cl_item">Default setting parameters issue</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.27</div>
+<div class="cl_item">Fixed: A problem on zoomed out content without edge bounce</div>
+<div class="cl_item">'matches' in manifest.json value is changed to 'all_urls' </div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.26</div>
+<div class="cl_item">Fixed: A problem of pages using dummy iframe</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.24</div>
+<div class="cl_item">Fixed: Configuration data problem on initial installation. </div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.23</div>
+<div class="cl_item">Fixed: An improper way to scan “contenteditable" attribute that causes problem on GMail </div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.21</div>
+<div class="cl_item">Reject 1.0.20 changes. The fix causes another problem. Fall back to 1.0.19 </div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.20</div>
+<div class="cl_item">Fixed: Mouse wheel scroll does go smooth while mouse cursor is on any area of any pages.</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.19</div>
+<div class="cl_item">Fixed: Issue of space key on input elements such as checkboxes.</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.18</div>
+<div class="cl_item">Fixed: A bit of fix for margin issue of bouncy edge.</div>
+<div class="cl_item">Fixed: Horizontal wheel scroll events are handled properly </div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.17</div>
+<div class="cl_item">Fixed: Black List function available on Chrome 5.</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.16</div>
+<div class="cl_item">Added: Black list for skipping to load the extension on a specific site.</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.15</div>
+<div class="cl_item">Fixed: Malfunction on textbox that "type" is newly added one on HTML5 standard such as "search". </div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.14</div>
+<div class="cl_item">Fixed: Keys for scroll when editing on Google wave</div>
+<div class="cl_item">Fixed: A bit of fix for margin issue of bouncy edge</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.13</div>
+<div class="cl_item">Fixed: Glitch on Google Reader</div>
+<div class="cl_item">Fixed: Mishandling horizontal scroll events</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.12</div>
+<div class="cl_item">Tweaked: Wheel to opposite direction stops movement but slows movement.</div>
+<div class="cl_item">Added: Cap of msecs per frame for preventing jumpy scroll.</div>
+<br class="cl_separator">
+
+<div class="cl_header">1.0.10</div>
+<div class="cl_item">Added: Charts on options page</div>
+<div class="cl_item">Added: Faders on options page</div>
+<div class="cl_item">Tweaked: In small scrollable area, Size of bouncy edge is limited small than its setting.</div>
+
+</div>
+
+<div class="descbox">
+<div class="desctitle">Author/Contact</div>
+<div class="desc"> Kataho ( kataho.mail@gmail.com ) </div>
+<div class="desc"> Twitter: @kataho </div>
+</div>
+
+<div class="descbox">
+<div class="desctitle">Motivate me to provide continuous support</div>
+
+<div class="desc">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="9897S7ZQMTCL2">
+<input type="hidden" name="on0" value="Paypal:">
+Paypal:
+<select name="os0">
+	<option value="option1">option1 $2.00 USD</option>
+	<option value="option2">option2 $5.00 USD</option>
+	<option value="option3">option3 $10.00 USD</option>
+	<option value="option4">option4 $50.00 USD</option>
+	<option value="option5">option5 $100.00 USD</option>
+</select>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" style="margin-bottom:-7"
+  src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
+
+<script src="util.js"></script>
+<script src="options.js"></script>
+<script src="scroller.js"></script>
+<script src="main.js"></script>

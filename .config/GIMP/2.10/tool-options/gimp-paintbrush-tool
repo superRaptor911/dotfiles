@@ -1,0 +1,11 @@
+# GIMP gimp-paintbrush-tool options
+
+(foreground (color-rgb 1 0.95302013422818788 0.95302013422818788))
+(brush "2. Hardness 050")
+(dynamics "Dynamics Off")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(brush-size 14)
+(brush-hardness 0.5)
+
+# end of gimp-paintbrush-tool options

@@ -1,0 +1,36 @@
+[2021-01-27 20:10:31.107] [exthost] [info] extension host started
+[2021-01-27 20:10:31.129] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-01-27 20:10:31.129] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-01-27 20:10:31.131] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2021-01-27 20:10:31.131] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-01-27 20:10:31.143] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-01-27 20:10:31.144] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-01-27 20:10:31.164] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2021-01-27 20:10:31.164] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-01-27 20:10:31.166] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2021-01-27 20:10:31.166] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/search-result/dist/extension.js
+[2021-01-27 20:10:31.167] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2021-01-27 20:10:31.167] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/raptor/.vscode-oss/extensions/vscodevim.vim-1.18.5/out/extension
+[2021-01-27 20:10:31.382] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-01-27 20:10:31.382] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-01-27 20:10:31.394] [exthost] [info] eager extensions activated
+[2021-01-27 20:10:31.394] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-01-27 20:10:31.394] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-01-27 20:11:22.154] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-01-27 20:11:22.155] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/configurationEditingMain
+[2021-01-27 20:11:22.161] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-01-27 20:11:22.161] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-01-27 20:11:22.277] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-01-27 20:11:22.277] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2021-01-27 20:11:31.587] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-01-27 20:11:31.588] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-01-27 20:12:00.835] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2021-01-27 20:12:00.835] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/css-language-features/client/dist/node/cssClientMain
+[2021-01-28 00:55:11.652] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug2 {"startup":false,"extensionId":{"value":"ms-vscode.node-debug","_lower":"ms-vscode.node-debug"},"activationEvent":"onDebugInitialConfigurations"}
+[2021-01-28 00:55:11.653] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.node-debug2/out/src/extension
+[2021-01-28 00:55:11.686] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug {"startup":false,"extensionId":{"value":"ms-vscode.node-debug","_lower":"ms-vscode.node-debug"},"activationEvent":"onDebugInitialConfigurations"}
+[2021-01-28 00:55:11.686] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.node-debug/dist/extension.js
+[2021-01-28 00:55:12.864] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready {"startup":false,"extensionId":{"value":"vscode.debug-server-ready","_lower":"vscode.debug-server-ready"},"activationEvent":"onDebugResolve"}
+[2021-01-28 00:55:12.865] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-server-ready/dist/extension
+[2021-01-28 11:45:57.963] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2021-01-28 11:45:57.964] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/extension-editing/dist/extensionEditingMain

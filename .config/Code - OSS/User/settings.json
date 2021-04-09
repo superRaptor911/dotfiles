@@ -1,0 +1,7 @@
+{
+    "window.zoomLevel": 1,
+    "editor.fontFamily": "'Menlo for Powerline', Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "vim.vimrc.enable": true,
+    "editor.lineNumbers": "relative",
+    "php.suggest.basic": false
+}

@@ -1,0 +1,6 @@
+2021/02/26-11:47:37.355 1bfe3 Reusing MANIFEST /home/raptor/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2021/02/26-11:47:37.356 1bfe3 Recovering log #3
+2021/02/26-11:47:37.405 1bfe3 Reusing old log /home/raptor/.config/chromium/Default/Sync Data/LevelDB/000003.log 
+2021/02/26-12:25:09.838 1c7c1 Level-0 table #5: started
+2021/02/26-12:25:10.110 1c7c1 Level-0 table #5: 147070 bytes OK
+2021/02/26-12:25:10.251 1c7c1 Delete type=0 #3

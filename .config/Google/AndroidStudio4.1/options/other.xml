@@ -1,0 +1,178 @@
+<application>
+  <component name="NotRoamableUiSettings">
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="18" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Database Inspector.DATABASES.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Database Inspector.DATABASES.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Database Inspector.DATABASES.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Database Inspector.DATABASES.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Database Inspector.TOOL_ORDER" value="DATABASES" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.HOSTS.FULL.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.HOSTS.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.HOSTS.FULL.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.HOSTS.FULL.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.HOSTS.SPLIT.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.HOSTS.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.HOSTS.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.HOSTS.SPLIT.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.FULL.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.FULL.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.FULL.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.FULL.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.SPLIT.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.SPLIT.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.SPLIT.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.TOOL_ORDER" value="PROPERTIES,TREE,HOSTS" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.TREE.FULL.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.TREE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.TREE.FULL.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.TREE.FULL.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.TREE.SPLIT.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.TREE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.TREE.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.TREE.SPLIT.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.DEACTIVATED.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.DEACTIVATED.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.DEACTIVATED.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.DEACTIVATED.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.DEACTIVATED.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.DEACTIVATED.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.DEACTIVATED.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.TOOL_ORDER" value="PALETTE,PROPERTIES,COMPONENT_TREE" />
+    <property name="ATTACHED_TOOL_WINDOW.Database Inspector.DATABASES.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Database Inspector.TOOL_ORDER" value="DATABASES" />
+    <property name="ATTACHED_TOOL_WINDOW.NAV_EDITOR.HOSTS.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NAV_EDITOR.HOSTS.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NAV_EDITOR.HOSTS.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NAV_EDITOR.PROPERTIES.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NAV_EDITOR.TOOL_ORDER" value="PROPERTIES,TREE,HOSTS" />
+    <property name="ATTACHED_TOOL_WINDOW.NAV_EDITOR.TREE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NAV_EDITOR.TREE.FULL.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NAV_EDITOR.TREE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NAV_EDITOR.TREE.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NAV_EDITOR.TREE.SPLIT.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.FULL.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.LEFT.UNSCALED.WIDTH" value="339" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PROPERTIES.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.RIGHT.UNSCALED.WIDTH" value="280" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.TEXT_SEARCH_HISTORY" value="pas&#10;nav&#10;size&#10;font" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.TOOL_ORDER" value="PALETTE,PROPERTIES,COMPONENT_TREE" />
+    <property name="AndroidInitConfigurator.V1" value="true" />
+    <property name="AndroidInitConfigurator.V3" value="true" />
+    <property name="AndroidInitConfigurator.V5" value="true" />
+    <property name="Default.SavedEditorTheme" value="_@user_Default" />
+    <property name="InstalledPluginsSearchHistory" value="ADB&#10;AD&#10;A&#10;w&#10;wi" />
+    <property name="MarketplacePluginsSearchHistory" value="ADB&#10;AD&#10;wifi&#10;w&#10;/a" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MobileminApi" value="21" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="PROJECT_STRUCTURE_NOTIFICATION_LAST_HIDDEN_TIMESTAMP" value="1609658152580" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="SAVED_ANDROID_NPW_ASKED_LANGUAGE" value="true" />
+    <property name="SAVED_ANDROID_NPW_LANGUAGE" value="Kotlin" />
+    <property name="SAVED_ANDROID_PACKAGE" value="com.example" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/CampusMate/app/src/main/res/layout/activity_login.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/CampusMate/app/src/main/res/layout/activity_main.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/CampusMate/app/src/main/res/layout/branch_fragment.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/CampusMate/app/src/main/res/layout/download_page_fragment.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/CampusMate/app/src/main/res/layout/fragment_category.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/CampusMate/app/src/main/res/layout/login_fragment.xml" value="FULL" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/CampusMate/app/src/main/res/layout/recycler_item.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/CampusMate/app/src/main/res/layout/register_fragment.xml" value="FULL" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/CampusMate/app/src/main/res/layout/semester_fragment.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/CampusMate/app/src/main/res/xml/network_security_config.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_main.xml" value="FULL" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/list_item.xml" value="FULL" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/RestTest/app/src/main/res/layout/activity_main.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/RestTest/app/src/main/res/xml/network_security_config.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/TestApp/app/src/main/res/layout/activity_affirmation_app.xml" value="FULL" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/TestApp/app/src/main/res/layout/activity_fragment_test.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/TestApp/app/src/main/res/layout/activity_main.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/TestApp/app/src/main/res/layout/activity_main2.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/TestApp/app/src/main/res/layout/activity_main_menu.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/TestApp/app/src/main/res/layout/activity_unscramble_main.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/TestApp/app/src/main/res/layout/fragment_first.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/TestApp/app/src/main/res/layout/fragment_second.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/TestApp/app/src/main/res/layout/fragment_unscramble_game.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/TestApp/app/src/main/res/layout/fragment_unscramble_result.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/TestApp/app/src/main/res/layout/one_liner_item.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/TestApp/app/src/main/res/menu/first_bottom_navigation.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/TestApp/app/src/main/res/navigation/unscramble_nav.xml" value="FULL" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/ViewModel/app/src/main/res/layout/activity_main.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/ViewModel/app/src/main/res/layout/activity_test.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/ViewModel/app/src/main/res/layout/fragment_blank.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/android-basics-kotlin-unscramble-app/app/src/main/res/layout/activity_test.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/android-basics-kotlin-unscramble-app/app/src/main/res/layout/fragment_test.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/android-basics-kotlin-unscramble-app/app/src/main/res/layout/game_fragment.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/android-basics-kotlin-unscramble-app/app/src/main/res/layout/main_activity.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/dessert-app/app/src/main/res/layout/activity_main.xml" value="FULL" />
+    <property name="SPLIT_EDITOR_MODE_/home/raptor/AndroidStudioProjects/dessert-app/app/src/main/res/menu/main_menu.xml" value="DEACTIVATED" />
+    <property name="SettingsSearchHistory" value="auto&#10;offline&#10;grad" />
+    <property name="TextEditorWithPreview.SplitterProportionKey" value="0.5171209" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="dev.polek.adbwifi.CONFIRM_DEVICE_REMOVAL" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/AndroidStudioProjects/android-basics-kotlin-unscramble-app&#10;/home/raptor/Downloads/scramble.png&#10;/home/raptor/Downloads&#10;/home/raptor/AndroidStudioProjects/aboutMeApp&#10;/home/raptor/AndroidStudioProjects/dessert-app&#10;/home/raptor/AndroidStudioProjects/kotlin-word-app&#10;/home/raptor/Downloads/imgs/dice_6.png&#10;/home/raptor/Downloads/androidparty.png" />
+    <property name="file.gist.reindex.count" value="35" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="ideavim.statistics.timestamp" value="1610942768579" />
+    <property name="inspector.open.All Attributes" value="true" />
+    <property name="inspector.open.Declared Attributes" value="true" />
+    <property name="installed.kotlin.plugin.version" value="1.4.21-release-Studio4.1-1" />
+    <property name="kotlin-gradle-user-dirs" value="$USER_HOME$/.gradle" />
+    <property name="kotlin.lastUpdateCheck" value="1610943957969" />
+    <property name="kotlin.plugin.releaseDate" value="1.4.21-release-Studio4.1-1:2020-12-07" />
+    <property name="lastSeenTip" value="InjectSQLLanguage.html" />
+    <property name="lastTimeTipsWereShown" value="1610253944329" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/android-basics-kotlin-unscramble-app" />
+    <property name="resourceExplorer.lastChosenDirectory" value="$USER_HOME$/Downloads/scramble.png" />
+    <property name="seenTips" value="Kotlin_project.html,InjectSQLLanguage.html" />
+    <property name="settings.code.style.selected.tab.kotlin" value="Tabs and Indents" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+  </component>
+</application>

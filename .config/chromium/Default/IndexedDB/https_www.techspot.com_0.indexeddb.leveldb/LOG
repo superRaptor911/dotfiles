@@ -1,0 +1,5 @@
+2021/01/30-01:26:58.242 7fc6 Reusing MANIFEST /home/raptor/.config/chromium/Default/IndexedDB/https_www.techspot.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/30-01:27:01.791 7fc6 Level-0 table #5: started
+2021/01/30-01:27:01.897 7fc6 Level-0 table #5: 342 bytes OK
+2021/01/30-01:27:02.162 7fc6 Delete type=0 #3
+2021/01/30-01:27:02.162 7fc6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

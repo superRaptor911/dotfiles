@@ -1,0 +1,41 @@
+snippet fun "Function"
+function $1() {
+
+}
+endsnippet
+
+global !p
+def capitalizeWord(t):
+	if t:
+		t = t[0].upper() + t[1:]
+	return t
+
+def ifPostEmpty(t):
+	x=""
+	strings = t.split(",")
+	for i in strings:
+		if i == strings[-1]:
+			x= x + "empty($_POST[\"" + i + "\"])"
+		else:
+			x= x + "empty($_POST[\"" + i + "\"]) || "
+	return x
+
+def postValues(t):
+	x=""
+	strings = t.split(",")
+	for i in strings:
+		x = x + "$"+i+ " = $_POST[\"" + i + "\"];\n"
+	return x
+
+endglobal
+
+snippet "([\w,]+)\.ifPostEmpty" "Check if any post value is empty; seperate values with ," r
+if (`!p snip.rv=ifPostEmpty(match.group(1))`) {
+	$1
+}
+endsnippet
+
+
+snippet "([\w,]+)\.postValues" "Get corresponding values from post" r
+`!p snip.rv=postValues(match.group(1))`
+endsnippet

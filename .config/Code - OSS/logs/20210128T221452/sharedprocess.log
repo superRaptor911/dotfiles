@@ -1,0 +1,10 @@
+[2021-01-28 22:14:56.923] [sharedprocess] [info] main {"machineId":"9f56a1562f56f9bb0af46e8d7bf6e178e9579b5f0cf52bd90e7b87a8e9f34209","windowId":2}
+[2021-01-28 22:15:36.937] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-01-28 22:19:04.300] [sharedprocess] [info] Uninstalling extension: felixfbecker.php-intellisense
+[2021-01-28 22:19:04.459] [sharedprocess] [info] Successfully uninstalled extension: felixfbecker.php-intellisense
+[2021-01-28 22:19:42.349] [sharedprocess] [info] Installing extension: bmewburn.vscode-intelephense-client
+[2021-01-28 22:19:49.204] [sharedprocess] [info] Downloaded extension: bmewburn.vscode-intelephense-client undefined
+[2021-01-28 22:19:54.700] [sharedprocess] [info] Extracted extension to /home/raptor/.vscode-oss/extensions/.bmewburn.vscode-intelephense-client-1.6.1: bmewburn.vscode-intelephense-client
+[2021-01-28 22:19:54.701] [sharedprocess] [info] Renamed to /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.1
+[2021-01-28 22:19:54.715] [sharedprocess] [info] Installation completed. bmewburn.vscode-intelephense-client
+[2021-01-28 22:19:54.778] [sharedprocess] [info] Extensions installed successfully: bmewburn.vscode-intelephense-client

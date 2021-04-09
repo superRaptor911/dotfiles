@@ -1,0 +1,188 @@
+[2021-02-04 18:04:39.534] [exthost] [info] extension host started
+[2021-02-04 18:04:39.775] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2021-02-04 18:04:39.775] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/php-language-features/dist/phpMain
+[2021-02-04 18:04:39.977] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"extensionId":{"value":"bmewburn.vscode-intelephense-client","_lower":"bmewburn.vscode-intelephense-client"},"activationEvent":"onLanguage:php"}
+[2021-02-04 18:04:39.977] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension
+[2021-02-04 18:04:40.156] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":false,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"onCommand:type"}
+[2021-02-04 18:04:40.156] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/raptor/.vscode-oss/extensions/vscodevim.vim-1.18.5/out/extension
+[2021-02-04 18:04:40.466] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-04 18:04:40.466] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-02-04 18:04:40.542] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2021-02-04 18:04:40.542] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-04 18:04:40.643] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-04 18:04:40.643] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-02-04 18:04:40.796] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2021-02-04 18:04:40.796] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-04 18:04:40.819] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2021-02-04 18:04:40.819] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/search-result/dist/extension.js
+[2021-02-04 18:04:41.305] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-02-04 18:04:41.305] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-04 18:04:43.648] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-04 18:04:43.649] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-02-04 18:04:44.198] [exthost] [info] eager extensions activated
+[2021-02-04 18:06:04.761] [exthost] [warning] TextEditor is closed/disposed
+[2021-02-04 18:06:04.761] [exthost] [warning] TextEditor is closed/disposed
+[2021-02-04 18:06:04.787] [exthost] [warning] {"name":"DISPOSED","message":"TextEditor(vs.editor.ICodeEditor:1,$model1) has been disposed"}
+[2021-02-04 18:06:23.891] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2021-02-04 18:06:23.891] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/extension-editing/dist/extensionEditingMain
+[2021-02-04 18:06:24.035] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:typescript"}
+[2021-02-04 18:06:24.036] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2021-02-04 18:19:39.838] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-04 18:19:39.843] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-04 18:19:39.943] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-04 18:19:39.943] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-04 18:23:04.476] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-04 18:23:04.477] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-04 18:26:16.365] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-02-04 18:26:16.365] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-02-04 18:33:51.614] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-04 18:33:51.614] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-04 18:33:56.062] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-04 18:33:56.063] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-05 21:34:29.111] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-05 21:34:29.157] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-05 21:39:42.798] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-05 21:39:42.798] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-05 21:39:42.830] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-05 21:39:42.830] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-05 21:40:16.098] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-05 21:40:16.099] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-05 21:40:16.147] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-05 21:40:16.147] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-05 21:42:02.189] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-05 21:42:02.189] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-05 21:43:58.088] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-05 21:43:58.088] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-05 21:44:12.859] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-05 21:44:12.859] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-05 21:44:14.340] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-05 21:44:14.341] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-05 21:51:53.797] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-05 21:51:53.798] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 09:34:39.116] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2021-02-06 09:34:39.117] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/css-language-features/client/dist/node/cssClientMain
+[2021-02-06 09:43:21.451] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 09:43:21.452] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 09:48:38.993] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 09:48:38.993] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 09:48:39.091] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 09:48:39.092] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 09:48:42.256] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 09:48:42.256] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 09:49:42.811] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 09:49:42.812] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 09:50:41.772] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 09:50:41.773] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 09:50:41.847] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 09:50:41.847] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 09:50:41.880] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 09:50:41.880] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 09:50:43.144] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 09:50:43.145] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 09:51:33.714] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 09:51:33.714] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 09:58:18.074] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 09:58:18.250] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 09:59:40.853] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 09:59:40.853] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 10:02:36.120] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 10:02:36.120] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 10:02:36.166] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 10:02:36.166] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 10:02:36.201] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 10:02:36.201] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986
+[2021-02-06 10:02:37.506] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-02-06 10:02:37.506] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128320)
+	at w.handleFailedRequest (/home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:128171)
+	at /home/raptor/.vscode-oss/extensions/bmewburn.vscode-intelephense-client-1.6.3/lib/extension.js:1:91986

@@ -1,0 +1,9 @@
+[2021-01-27 20:04:48.003] [sharedprocess] [info] main {"machineId":"9f56a1562f56f9bb0af46e8d7bf6e178e9579b5f0cf52bd90e7b87a8e9f34209","windowId":2}
+[2021-01-27 20:04:48.032] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/raptor/.config/Code - OSS/User/snippets'
+[2021-01-27 20:05:28.022] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-01-27 20:09:26.086] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2021-01-27 20:09:34.108] [sharedprocess] [info] Downloaded extension: vscodevim.vim undefined
+[2021-01-27 20:09:34.505] [sharedprocess] [info] Extracted extension to /home/raptor/.vscode-oss/extensions/.vscodevim.vim-1.18.5: vscodevim.vim
+[2021-01-27 20:09:34.506] [sharedprocess] [info] Renamed to /home/raptor/.vscode-oss/extensions/vscodevim.vim-1.18.5
+[2021-01-27 20:09:34.508] [sharedprocess] [info] Installation completed. vscodevim.vim
+[2021-01-27 20:09:34.645] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim

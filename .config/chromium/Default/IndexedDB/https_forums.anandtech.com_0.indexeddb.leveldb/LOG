@@ -1,0 +1,5 @@
+2021/01/30-01:29:46.358 6723 Reusing MANIFEST /home/raptor/.config/chromium/Default/IndexedDB/https_forums.anandtech.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/30-01:31:22.503 80ba Level-0 table #5: started
+2021/01/30-01:31:22.736 80ba Level-0 table #5: 8406 bytes OK
+2021/01/30-01:31:22.838 80ba Delete type=0 #3
+2021/01/30-01:31:22.838 80ba Manual compaction at level-0 from (begin) .. (end); will stop at (end)

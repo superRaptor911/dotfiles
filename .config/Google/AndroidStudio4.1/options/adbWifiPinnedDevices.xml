@@ -1,0 +1,5 @@
+<application>
+  <component name="PinDeviceService">
+    <option name="pinnedDevices" value="[{&quot;id&quot;:&quot;192.168.43.157:5555&quot;,&quot;serialNumber&quot;:&quot;J7AAGF05C610D69&quot;,&quot;name&quot;:&quot;asus ZenFone Max Pro M1&quot;,&quot;address&quot;:&quot;192.168.43.157&quot;,&quot;androidVersion&quot;:&quot;10&quot;,&quot;apiLevel&quot;:&quot;29&quot;}]" />
+  </component>
+</application>

@@ -1,0 +1,41 @@
+set number
+set relativenumber
+syntax on
+set linebreak
+set showbreak=+++
+set textwidth=100
+set showmatch	
+
+set hlsearch
+set smartcase
+set ignorecase
+set incsearch
+
+set autoindent
+set shiftwidth=4
+set smartindent
+set smarttab
+set softtabstop=4 
+set ruler
+ 
+set undolevels=1000
+set backspace=indent,eol,start
+set clipboard=unnamedplus
+syntax enable
+colorscheme monokai
+
+filetype plugin on
+
+" C/C++
+autocmd FileType cpp inoremap ;if if()<CR>{<CR>}<Esc>kk$i
+autocmd FileType cpp inoremap ;fi for(int i = 0; i < ; i++)<CR>{<CR>}<Esc>kkf<a
+autocmd FileType cpp inoremap ;cl class<CR>{<CR><BS>public:<CR>};<Esc>3k$a<Space>
+autocmd FileType cpp inoremap ;st struct<CR>{<CR>};<Esc>2k$a<Space>
+
+" switch tabs
+nnoremap <PageUp> :tabp<CR>
+nnoremap <PageDown> :tabn<CR>
+" complete insertion at end
+inoremap ii <Esc><Esc>
+inoremap ( ()<Esc>i
+inoremap [ []<Esc>i

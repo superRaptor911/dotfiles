@@ -1,0 +1,96 @@
+Xft.dpi:       96
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.autohint:  false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+XTerm*background:        #222D31
+XTerm*foreground:        #d8d8d8
+XTerm*pointerColor:      #1ABB9B
+XTerm*faceName:          Fixed
+XTerm*faceSize:          11
+XTerm*reverseVideo:      on
+XTerm*selectToClipboard: true
+Xcursor.theme: xcursor-breeze
+Xcursor.size:                     0
+
+
+
+! special
+*.foreground:   #EEEEEC
+*.background:   #1d1f21
+*.cursorColor:  #EEEEEC
+
+! black
+*.color0:       #2E3436
+*.color8:       #555753 
+
+! red
+*.color1:       #CC0000
+*.color9:       #EF2929
+
+! green
+*.color2:       #4E9A06
+*.color10:      #8AE234
+
+! yellow
+*.color3:       #C4A000
+*.color11:      #FCE94F
+
+! blue
+*.color4:       #3465A4
+*.color12:      #729FCF
+
+! magenta
+*.color5:       #75507B
+*.color13:      #AD7FA8
+
+! cyan
+*.color6:       #06989A
+*.color14:      #34E2E2
+
+! white
+*.color7:       #D3D7CF
+*.color15:      #EEEEEC
+
+URxvt.font:                       xft:Menlo for Powerline:size=14
+
+! alternative font settings with 'terminus':
+! URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
+! URxvt.bold.font: -xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso10646-1
+!! terminus names see end of file!
+
+URxvt.depth:                      32
+URxvt.background:                 [90]#000000
+URxvt*scrollBar:                  false
+URxvt*mouseWheelScrollPage:       false
+URxvt*cursorBlink:                true
+URxvt*saveLines:                  5000
+
+urxvt*transparent: true
+urxvt*shading: 30
+
+! Normal copy-paste keybindings without perls
+URxvt.iso14755:                   false
+URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
+URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
+!Xterm escape codes, word by word movement
+URxvt.keysym.Control-Left:        [1;5D
+URxvt.keysym.Shift-Control-Left:  [1;6D
+URxvt.keysym.Control-Right:       [1;5C
+URxvt.keysym.Shift-Control-Right: [1;6C
+URxvt.keysym.Control-Up:          [1;5A
+URxvt.keysym.Shift-Control-Up:    [1;6A
+URxvt.keysym.Control-Down:        [1;5B
+URxvt.keysym.Shift-Control-Down:  [1;6B
+Rxvt.perl-ext-common:             ...,clipboard
+URxvt.keysym.M-C-c:               perl:clipboard:copy
+URxvt.keysym.M-v:                 perl:clipboard:paste
+URxvt.keysym.M-C-v:               perl:clipboard:paste_escaped
+
+URxvt.perl-ext-common: keyboard-select,font-size
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keyboard-select.clipboard: true
+

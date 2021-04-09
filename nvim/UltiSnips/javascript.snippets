@@ -1,0 +1,40 @@
+snippet t "Html Tag"
+<$1></${1/(\w+).*/$1/}>
+endsnippet
+
+
+snippet et "Html closing Tag"
+<$1/>
+endsnippet
+
+snippet nt "Html Tag new line"
+<$1>
+</${1/(\w+).*/$1/}>
+endsnippet
+
+snippet sfc "State less function for react"
+const ${1:`!v expand('%:t:r')`} = () => {
+	return ();
+}
+
+export default $1
+endsnippet
+
+global !p
+def capitalizeWord(t):
+	if t:
+		t = t[0].upper() + t[1:]
+	return t
+endglobal
+
+
+snippet useState "Use State snippet"
+const [$1, set`!p snip.rv=capitalizeWord(t[1])`] = useState();
+endsnippet
+
+
+snippet c= "Create arrow function"
+const $1 = () => {
+
+}
+endsnippet
