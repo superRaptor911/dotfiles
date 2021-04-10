@@ -1,8 +1,0 @@
-[2021-02-09 17:42:25.170] [sharedprocess] [info] main {"machineId":"9f56a1562f56f9bb0af46e8d7bf6e178e9579b5f0cf52bd90e7b87a8e9f34209","windowId":2}
-[2021-02-09 17:42:37.084] [sharedprocess] [info] Installing extension: vscodevim.vim
-[2021-02-09 17:42:41.967] [sharedprocess] [info] Downloaded extension: vscodevim.vim undefined
-[2021-02-09 17:42:42.328] [sharedprocess] [info] Extracted extension to /home/raptor/.vscode-oss/extensions/.vscodevim.vim-1.18.9: vscodevim.vim
-[2021-02-09 17:42:42.328] [sharedprocess] [info] Renamed to /home/raptor/.vscode-oss/extensions/vscodevim.vim-1.18.9
-[2021-02-09 17:42:42.331] [sharedprocess] [info] Installation completed. vscodevim.vim
-[2021-02-09 17:42:42.967] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
-[2021-02-09 17:43:05.180] [sharedprocess] [info] Starting to clean up unused language packs.

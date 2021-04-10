@@ -1,8 +1,0 @@
-[2021-01-28 13:27:19.007] [sharedprocess] [info] main {"machineId":"9f56a1562f56f9bb0af46e8d7bf6e178e9579b5f0cf52bd90e7b87a8e9f34209","windowId":2}
-[2021-01-28 13:27:59.040] [sharedprocess] [info] Starting to clean up unused language packs.
-[2021-01-28 22:14:08.947] [sharedprocess] [info] Installing extension: felixfbecker.php-intellisense
-[2021-01-28 22:14:10.878] [sharedprocess] [info] Downloaded extension: felixfbecker.php-intellisense undefined
-[2021-01-28 22:14:11.584] [sharedprocess] [info] Extracted extension to /home/raptor/.vscode-oss/extensions/.felixfbecker.php-intellisense-2.3.14: felixfbecker.php-intellisense
-[2021-01-28 22:14:11.584] [sharedprocess] [info] Renamed to /home/raptor/.vscode-oss/extensions/felixfbecker.php-intellisense-2.3.14
-[2021-01-28 22:14:11.585] [sharedprocess] [info] Installation completed. felixfbecker.php-intellisense
-[2021-01-28 22:14:11.733] [sharedprocess] [info] Extensions installed successfully: felixfbecker.php-intellisense

@@ -1,5 +1,0 @@
-2021/01/29-19:30:28.904 3a8a Reusing MANIFEST /home/raptor/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/01/29-20:23:20.242 3df1 Level-0 table #5: started
-2021/01/29-20:23:20.459 3df1 Level-0 table #5: 2005 bytes OK
-2021/01/29-20:23:20.619 3df1 Delete type=0 #3
-2021/01/29-20:23:20.619 3df1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

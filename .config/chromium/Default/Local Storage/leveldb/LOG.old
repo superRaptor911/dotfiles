@@ -1,6 +1,0 @@
-2021/02/26-11:47:37.357 3 Reusing MANIFEST /home/raptor/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2021/02/26-11:47:37.359 3 Recovering log #11
-2021/02/26-11:47:37.589 3 Reusing old log /home/raptor/.config/chromium/Default/Local Storage/leveldb/000011.log 
-2021/02/26-11:52:45.442 3 Level-0 table #15: started
-2021/02/26-11:52:45.699 3 Level-0 table #15: 113288 bytes OK
-2021/02/26-11:52:45.774 3 Delete type=0 #11
