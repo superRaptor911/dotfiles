@@ -15,9 +15,14 @@ endsnippet
 snippet sfc "State less function for react"
 const ${1:`!v expand('%:t:r')`} = () => {
 	return ();
-}
+};
 
-export default $1
+export default $1;
+endsnippet
+
+
+snippet cle "Log Error message in file"
+console.log("Error::`!v expand('%:t:r')`::$1");
 endsnippet
 
 global !p
@@ -28,7 +33,7 @@ def capitalizeWord(t):
 endglobal
 
 
-snippet useState "Use State snippet"
+snippet us "Use State snippet"
 const [$1, set`!p snip.rv=capitalizeWord(t[1])`] = useState();
 endsnippet
 
@@ -36,5 +41,12 @@ endsnippet
 snippet c= "Create arrow function"
 const $1 = () => {
 
+}
+endsnippet
+
+
+snippet for "For loop"
+for (let i = 0; i < $1; i++) {
+	$2
 }
 endsnippet

@@ -20,11 +20,29 @@ def ifPostEmpty(t):
 			x= x + "empty($_POST[\"" + i + "\"]) || "
 	return x
 
+def ifPostNotExists(t):
+	x=""
+	strings = t.split(",")
+	for i in strings:
+		if i == strings[-1]:
+			x= x + "!isset($_POST[\"" + i + "\"])"
+		else:
+			x= x + "!isset($_POST[\"" + i + "\"]) || "
+	return x
+
 def postValues(t):
 	x=""
 	strings = t.split(",")
 	for i in strings:
 		x = x + "$"+i+ " = $_POST[\"" + i + "\"];\n"
+	return x
+
+def toArray(t):
+	x="Array("
+	strings = t.split(",")
+	for i in strings:
+		x = x + f"'{i}',\n"
+	x = x + ");"
 	return x
 
 endglobal
@@ -35,7 +53,20 @@ if (`!p snip.rv=ifPostEmpty(match.group(1))`) {
 }
 endsnippet
 
+snippet "([\w,]+)\.ifPostNotExists" "Check if any post value is empty; seperate values with ," r
+if (`!p snip.rv=ifPostNotExists(match.group(1))`) {
+	$1
+}
+endsnippet
 
 snippet "([\w,]+)\.postValues" "Get corresponding values from post" r
 `!p snip.rv=postValues(match.group(1))`
 endsnippet
+
+
+snippet "([\w,]+)\.toArray" "Get corresponding values as array" r
+`!p snip.rv=toArray(match.group(1))`
+endsnippet
+
+
+

@@ -13,9 +13,13 @@ Plugin 'neoclide/coc.nvim'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'qpkorr/vim-bufkill'
+Plugin 'tpope/vim-surround'
+Plugin 'danro/rename.vim'
 " Color scheme
 Plugin 'morhetz/gruvbox'
-Plugin 'tomasr/molokai'
+Plugin 'sainnhe/edge'
+Plugin 'dracula/vim'
+" Syntax
 Plugin 'octol/vim-cpp-enhanced-highlight'
 " Plugin 'jelera/vim-javascript-syntax'
 " Plugin 'peitalin/vim-jsx-typescript'
@@ -24,6 +28,7 @@ Plugin 'maxmellon/vim-jsx-pretty'
 Plugin 'SirVer/ultisnips'
 Plugin 'mlaursen/vim-react-snippets'
 Plugin 'honza/vim-snippets'
+Plugin 'vim-python/python-syntax'
 call vundle#end()
 
 set termguicolors
@@ -97,6 +102,7 @@ autocmd FileType json nnoremap ;b :%!python -m json.tool<CR>
 " Javascript
 autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 
+autocmd FileType markdown nnoremap <F5> :!markdown -f html -o doc.html % <CR><CR>
 " Global keybindings
 " Run macro with Q
 nnoremap Q @q
@@ -161,7 +167,7 @@ inoremap <C-h> <Left>
 inoremap <C-l> <Right>
 
 nnoremap oo o<Esc>
-nnoremap <C-f> :Files<CR>
+nnoremap <C-f> :GFiles<CR>
 nnoremap <C-b> :Buffers<CR>
 
 " COC config
@@ -229,6 +235,8 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+nmap <silent> ge <Plug>(coc-rename)
+nmap <silent> do <Plug>(coc-codeaction)
 
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call <SID>show_documentation()<CR>
@@ -254,3 +262,4 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+let g:python_highlight_all = 1

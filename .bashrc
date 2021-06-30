@@ -144,3 +144,5 @@ ex ()
 # . /usr/share/powerline/bindings/bash/powerline.sh
 
 export PATH=$PATH:/home/raptor/program/bin
+export npm_config_prefix="$HOME/.local"
+export ggwp="ggwwwwww"

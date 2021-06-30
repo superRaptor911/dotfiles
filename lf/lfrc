@@ -1,3 +1,4 @@
+set ratios 1:2:3
 # interpreter for shell commands (needs to be POSIX compatible)
 set shell sh
 set preview true
