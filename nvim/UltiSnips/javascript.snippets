@@ -22,7 +22,7 @@ endsnippet
 
 
 snippet cle "Log Error message in file"
-console.log("Error::`!v expand('%:t:r')`::$1");
+console.error("`!v expand('%:t:r')`::$1");
 endsnippet
 
 global !p
@@ -37,6 +37,11 @@ snippet us "Use State snippet"
 const [$1, set`!p snip.rv=capitalizeWord(t[1])`] = useState();
 endsnippet
 
+snippet ue "Use Effect snippet"
+useEffect(() => {
+	$2
+}, [$1]);
+endsnippet
 
 snippet c= "Create arrow function"
 const $1 = () => {

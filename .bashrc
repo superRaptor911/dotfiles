@@ -146,3 +146,4 @@ ex ()
 export PATH=$PATH:/home/raptor/program/bin
 export npm_config_prefix="$HOME/.local"
 export ggwp="ggwwwwww"
+export DOWNGRADE_FROM_ALA=1

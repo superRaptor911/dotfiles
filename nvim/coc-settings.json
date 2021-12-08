@@ -9,8 +9,16 @@
             "command": "clangd",
             "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
             "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
+        },
+        "solidity": {
+            "command": "/usr/bin/solc-linux64",
+            "args": [ "--lsp" ],
+            "trace.server": "verbose",
+            "rootPatterns": [".git/"],
+            "filetypes": ["solidity"]
         }
     },
     "eslint.autoFixOnSave": true,
+    "javascript.suggestionActions.enabled": false,
     "eslint.run": "onSave"
 }
