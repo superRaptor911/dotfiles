@@ -12,7 +12,6 @@ files=(
         ".Xresources"
         ".bashrc"
         ".vimrc"
-        ".vim/"
     )
 
 for i in "${files[@]}"
