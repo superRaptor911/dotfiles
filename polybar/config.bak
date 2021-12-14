@@ -56,8 +56,8 @@ font-1 = "monospace:fontformat=truetype:size=8:antialias=false;0"
 font-2 = "Siji:style=Regular:size=11"
 
 modules-left = i3
-; modules-center = filesystem
-modules-right = xbacklight pulseaudio memory cpu wlan battery date
+;modules-center = mpd
+modules-right = xbacklight pulseaudio memory cpu wlan battery temperature date
 
 tray-position = right
 tray-padding = 2
@@ -261,7 +261,7 @@ type = internal/date
 interval = 5
 
 date =
-date-alt = " %d-%m-%Y"
+date-alt = " %Y-%m-%d"
 
 time = %H:%M
 time-alt = %H:%M:%S
