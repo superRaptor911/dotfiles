@@ -18,6 +18,7 @@ files=(
         "$base_dir/nvim/"
         "$base_dir/alacritty/"
         "$base_dir/fish/"
+        "$base_dir/coc/"
         "$base_dir/lf/"
         "$base_dir/nvim/"
         "$base_dir/polybar/"
