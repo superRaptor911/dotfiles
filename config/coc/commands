@@ -1,0 +1,3 @@
+eslint.executeAutofix
+prettier.formatFile
+eslint.showOutputChannel
