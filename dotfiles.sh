@@ -29,5 +29,5 @@ mkdir -p ./.config/
 
 for i in "${files[@]}"
 do
-    rsync -va ~/$i ./config/ --exclude node_modules
+    rsync -va ~/$i ./.config/ --exclude node_modules
 done
