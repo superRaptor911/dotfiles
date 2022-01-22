@@ -27,13 +27,18 @@ Plug 'tomlion/vim-solidity'
 " " Syntax
 Plug 'octol/vim-cpp-enhanced-highlight'
 " Plug 'jelera/vim-javascript-syntax'
-" Plug 'peitalin/vim-jsx-typescript'
 Plug 'yuezk/vim-js'
+Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
+" Plug 'leafgarland/typescript-vim'
+" Plug 'HerringtonDarkholme/yats.vim'
+" Plug 'peitalin/vim-jsx-typescript'
+Plug 'vim-python/python-syntax'
+
 Plug 'SirVer/ultisnips'
 Plug 'mlaursen/vim-react-snippets'
 Plug 'honza/vim-snippets'
-Plug 'vim-python/python-syntax'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 set termguicolors
@@ -117,6 +122,11 @@ nnoremap <C-Down> :bp<CR>
 nnoremap <C-Right> :BD<CR>
 nnoremap <C-Left> :ls<CR>
 
+" Git !!!!!
+nnoremap ;ga :Git add .<CR>
+nnoremap ;gc :Git commit<CR>
+nnoremap ;gp :Git push<CR>
+
 " Tabs
 map <Esc>[5;5~ <kPageUp>
 map <Esc>[6;5~ <kPageDown>
@@ -163,6 +173,12 @@ inoremap <C-l> <Right>
 nnoremap oo o<Esc>
 nnoremap <C-f> :GFiles<CR>
 nnoremap <C-b> :Buffers<CR>
+
+"-- FOLDING --  
+set foldmethod=syntax "syntax highlighting items specify folds  
+" set foldcolumn=1 "defines 1 col at window left, to indicate folding  
+let javaScript_fold=1 "activate folding by JS syntax  
+set foldlevelstart=99 "start file with all folds opened
 
 " COC config
 " TextEdit might fail if hidden is not set.
@@ -391,3 +407,4 @@ ignore_list = {}
       }
   }
 EOF
+" autocmd BufNewFile,BufRead *.tsx setlocal filetype=typescript
