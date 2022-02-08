@@ -26,12 +26,13 @@ Plug 'tomlion/vim-solidity'
 
 " " Syntax
 Plug 'octol/vim-cpp-enhanced-highlight'
-" Plug 'jelera/vim-javascript-syntax'
+" JS/X
 Plug 'yuezk/vim-js'
-Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
+
+" TS/X
+Plug 'HerringtonDarkholme/yats.vim'
 " Plug 'leafgarland/typescript-vim'
-" Plug 'HerringtonDarkholme/yats.vim'
 " Plug 'peitalin/vim-jsx-typescript'
 Plug 'vim-python/python-syntax'
 
@@ -77,6 +78,7 @@ filetype indent on
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 
+
 " C/C++
 autocmd FileType cpp nnoremap <F5> :!g++ -o  %:r.out % -std=c++17<CR>
 autocmd FileType cpp nnoremap <F6> :!./%:r.out
@@ -86,13 +88,6 @@ autocmd Filetype html setlocal ts=2 sw=2 expandtab
 autocmd FileType html inoremap ;; <C-X><C-O>
 autocmd FileType html inoremap </ </<C-X><C-O>
 
-
-" Godot
-autocmd FileType gdscript inoremap ;r onready var  = get_node() <Esc>3bhi
-autocmd FileType gdscript inoremap ;c connect("", self, "") <Esc>T(a
-autocmd FileType gdscript inoremap ;fi for i in : <Esc>i
-autocmd FileType gdscript inoremap ;pl  preload("res://")<Esc>$hi
-
 " json
 autocmd FileType json nnoremap ;b :%!python -m json.tool<CR>
 
@@ -101,7 +96,6 @@ autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 " Markdown
 autocmd FileType markdown nnoremap <F5> :!markdown -f html -o %.html % <CR><CR>
 autocmd FileType markdown nnoremap <F6> :!wkhtmltopdf %.html %.pdf <CR><CR>
-
 
 autocmd BufWritePost *.py !autopep8 --in-place --aggressive --aggressive <afile>
 
@@ -115,6 +109,8 @@ nnoremap <S-Up> <C-u>
 nnoremap <S-Down> <C-d>
 nnoremap <C-k> <C-u>
 nnoremap <C-j> <C-d>
+
+nnoremap ;r :Rename 
 
 " Buffers
 nnoremap <C-Up> :bn<CR>
@@ -176,8 +172,9 @@ nnoremap <C-b> :Buffers<CR>
 
 "-- FOLDING --  
 set foldmethod=syntax "syntax highlighting items specify folds  
+" set foldmethod=syntax
 " set foldcolumn=1 "defines 1 col at window left, to indicate folding  
-let javaScript_fold=1 "activate folding by JS syntax  
+" let javaScript_fold=1 "activate folding by JS syntax  
 set foldlevelstart=99 "start file with all folds opened
 
 " COC config
@@ -408,3 +405,5 @@ ignore_list = {}
   }
 EOF
 " autocmd BufNewFile,BufRead *.tsx setlocal filetype=typescript
+set re=0
+" let g:yats_host_keyword = 0
