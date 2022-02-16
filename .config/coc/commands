@@ -1,3 +1,4 @@
+rust-analyzer.reloadWorkspace
 eslint.executeAutofix
 prettier.formatFile
 eslint.showOutputChannel

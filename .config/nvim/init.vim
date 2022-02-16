@@ -29,7 +29,8 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 " JS/X
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
-
+" MDX
+Plug 'jxnblk/vim-mdx-js'
 " TS/X
 Plug 'HerringtonDarkholme/yats.vim'
 " Plug 'leafgarland/typescript-vim'
