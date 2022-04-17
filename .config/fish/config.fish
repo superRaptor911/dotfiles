@@ -22,3 +22,4 @@ set EDITOR nvim
 alias vim="nvim"
 alias lf="lfrun"
 alias react="cd ~/program/react/"
+mynotes -r

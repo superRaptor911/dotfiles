@@ -41,6 +41,7 @@ Plug 'SirVer/ultisnips'
 Plug 'mlaursen/vim-react-snippets'
 Plug 'honza/vim-snippets'
 Plug 'tpope/vim-fugitive'
+Plug 'chrisbra/csv.vim'
 call plug#end()
 
 set termguicolors
@@ -81,8 +82,13 @@ let &t_EI = "\e[2 q"
 
 
 " C/C++
-autocmd FileType cpp nnoremap <F5> :!g++ -o  %:r.out % -std=c++17<CR>
+autocmd FileType cpp nnoremap <F5> :!g++ -o  %:r.out % -std=c++17 -Wall<CR>
 autocmd FileType cpp nnoremap <F6> :!./%:r.out
+function! Formatonsave()
+  let l:formatdiff = 1
+  pyf /usr/share/clang/clang-format.py
+endfunction
+autocmd BufWritePre *.h,*.cc,*.cpp call Formatonsave()
 
 " HTML
 autocmd Filetype html setlocal ts=2 sw=2 expandtab
@@ -97,7 +103,10 @@ autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 " Markdown
 autocmd FileType markdown nnoremap <F5> :!markdown -f html -o %.html % <CR><CR>
 autocmd FileType markdown nnoremap <F6> :!wkhtmltopdf %.html %.pdf <CR><CR>
-
+" Assembly
+autocmd BufNew,BufRead *.asm set ft=masm
+" autocmd FileType asm nnoremap <F6> :!r_buildAsm %<CR>
+autocmd FileType asm nnoremap <F6> :!r_buildAsm %<CR><CR>
 autocmd BufWritePost *.py !autopep8 --in-place --aggressive --aggressive <afile>
 
 " Global keybindings
@@ -112,6 +121,7 @@ nnoremap <C-k> <C-u>
 nnoremap <C-j> <C-d>
 
 nnoremap ;r :Rename 
+nnoremap ;e i<C-r>=<C-r>"<cr><esc> 
 
 " Buffers
 nnoremap <C-Up> :bn<CR>
@@ -170,6 +180,12 @@ inoremap <C-l> <Right>
 nnoremap oo o<Esc>
 nnoremap <C-f> :GFiles<CR>
 nnoremap <C-b> :Buffers<CR>
+
+aug CSV_Editing
+		au!
+		au BufRead,BufWritePost *.csv :%ArrangeColumn
+		au BufWritePre *.csv :%UnArrangeColumn
+aug end
 
 "-- FOLDING --  
 set foldmethod=syntax "syntax highlighting items specify folds  
