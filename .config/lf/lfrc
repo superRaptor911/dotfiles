@@ -93,8 +93,9 @@ cmd zip ${{
     rm -rf $1
 }}
 
-set previewer ~/.config/lf/pv
-set cleaner ~/.config/lf/cls
+set previewer lfpreviewer
+set cleaner lfcleaner
+set preview
 
 cmd mkdir ${{
   printf "Directory Name: "

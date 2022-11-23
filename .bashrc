@@ -90,15 +90,13 @@ fi
 
 unset use_color safe_term match_lhs sh
 
-alias cp="cp -i"                          # confirm before overwriting something
-alias df='df -h'                          # human-readable sizes
-alias free='free -m'                      # show sizes in MB
-alias np='nano -w PKGBUILD'
-alias more=less
+#alias cp="cp -i"                          # confirm before overwriting something
+#alias df='df -h'                          # human-readable sizes
+#alias free='free -m'                      # show sizes in MB
+#alias np='nano -w PKGBUILD'
+#alias more=less
 
 xhost +local:root > /dev/null 2>&1
-
-complete -cf sudo
 
 # Bash won't get SIGWINCH if another process is in the foreground.
 # Enable checkwinsize so that bash will check the terminal size when
@@ -138,14 +136,4 @@ ex ()
   fi
 }
 
-# powerline-daemon -q
-# POWERLINE_BASH_CONTINUATION=1
-# POWERLINE_BASH_SELECT=1
-# . /usr/share/powerline/bindings/bash/powerline.sh
-
-export PATH=$PATH:/home/raptor/program/bin
-export npm_config_prefix="$HOME/.local"
-export ggwp="ggwwwwww"
-export DOWNGRADE_FROM_ALA=1
-
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+PATH=~/program/bin:$PATH

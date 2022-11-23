@@ -179,6 +179,7 @@ bindsym $mod+r mode "resize"
 
 # init compton
 exec --no-startup-id picom --experimental-backends --backend glx
+exec "PATH=${HOME}/program/bin:$PATH"
 exec r_rnd_BG
 ####################################################################
 ## keybindings
@@ -200,9 +201,9 @@ bindsym Control+Mod1+Shift+p exec r_poweroff
 bindsym Control+Mod1+Shift+h exec r_hibernate
 
 # Multi-screen screenshots with scrot
-bindsym --release Print exec screenshot
+bindsym --release Print exec r_screenshot
 # OSX-like area selection screenshots
-bindsym --release Shift+Print exec screenshot -s
+bindsym --release Shift+Print exec r_screenshot -s
 
 #######################################################################
 
@@ -210,14 +211,14 @@ bindsym --release Shift+Print exec screenshot -s
 # exec feh --bg-scale Pictures/wallpapers/dark_wallpaper4.jpg
 
 # Launch 2020 eye protection
-exec 2020 10 30
+exec 2020 
 # Bar
 exec --no-startup-id polybar example
 
 # disable title bar
-new_window 1pixel
+# new_window 1pixel
 # set border size
-default_border pixel 2
+default_border pixel 1
 
 # set default workspace
 assign [class="firefox"] 2

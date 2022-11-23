@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export ANDROID_SDK_ROOT:/home/raptor/Android/Sdk
 SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_D:cd\x20\x7e/Downloads
 SETUVAR _fish_abbr_Doc:cd\x20\x7e/Documents
@@ -7,6 +8,7 @@ SETUVAR _fish_abbr_Down:cd\x20\x7e/Downloads
 SETUVAR _fish_abbr_pwdc:pwd\x20\x7c\x20xclip\x20\x2dselection\x20clipboard
 SETUVAR _fish_abbr_serv:cd\x20\x7e/program/servers
 SETUVAR _fish_abbr_setCaps:setxkbmap\x20\x2doption\x20caps\x3aescape
+SETUVAR _fish_abbr_store:cd\x20/mnt/store
 SETUVAR fish_color_autosuggestion:777777
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:00FF00

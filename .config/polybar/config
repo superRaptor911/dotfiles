@@ -39,6 +39,7 @@ font-2 = "Siji:style=Regular:size=15"
 
 modules-left = i3
 ; modules-center = filesystem
+; modules-right = xbacklight pulseaudio netspeed diskusage memory cpu wlan battery date
 modules-right = xbacklight pulseaudio netspeed diskusage memory cpu wlan battery date
 
 tray-position = right
