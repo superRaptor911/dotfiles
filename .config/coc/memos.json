@@ -4,5 +4,19 @@
   },
   "coc-rust-analyzer|global": {
     "release": "2022-02-14"
+  },
+  "coc-json|global": {
+    "json-schema-cache": {
+      "http://json.schemastore.org/prettierrc": {
+        "etag": "\"80e08ca9849bd81:0\"",
+        "fileName": "b2ed7a7b6c79e58baf94e4ce160282de.schema.json",
+        "updateTime": 1674469084837
+      },
+      "https://json.schemastore.org/package.json": {
+        "etag": "\"032a04c70f0d81:0\"",
+        "fileName": "473f72b44c2905902dfbcc770aab7f7a.schema.json",
+        "updateTime": 1674469085353
+      }
+    }
   }
 }

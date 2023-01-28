@@ -39,8 +39,8 @@ Plug 'SirVer/ultisnips'
 Plug 'mlaursen/vim-react-snippets'
 Plug 'honza/vim-snippets'
 Plug 'tpope/vim-fugitive'
-Plug 'chrisbra/csv.vim'
-Plug 'github/copilot.vim'
+" Plug 'chrisbra/csv.vim'
+" Plug 'github/copilot.vim'
 call plug#end()
 
 set termguicolors
@@ -185,11 +185,8 @@ nnoremap oo o<Esc>
 nnoremap <C-f> :GFiles<CR>
 nnoremap <C-b> :Buffers<CR>
 
-aug CSV_Editing
-		au!
-		au BufRead,BufWritePost *.csv :%ArrangeColumn
-		au BufWritePre *.csv :%UnArrangeColumn
-aug end
+nnoremap <C-t> :terminal<CR>
+
 
 "-- FOLDING --  
 set foldmethod=syntax "syntax highlighting items specify folds  
