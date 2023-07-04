@@ -137,3 +137,7 @@ ex ()
 }
 
 PATH=~/program/bin:$PATH
+
+export PATH="/home/raptor/.detaspace/bin:$PATH"
+
+export PATH="/home/raptor/.detaspace/bin:$PATH"

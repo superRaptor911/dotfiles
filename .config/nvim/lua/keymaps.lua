@@ -1,3 +1,5 @@
+local builtin = require('telescope.builtin')
+
 local function vnmap(shortcut, command)
     vim.api.nvim_set_keymap("v",shortcut, command, { noremap = true })
 end
@@ -60,9 +62,9 @@ nnmap("<S-Tab>", "<<")
 vnmap("<Tab>", ">><Esc>gv")
 vnmap("<S-Tab>", "<<<Esc>gv")
 
-nnmap("<F2>", ":set spell!<CR>")
 
 -- Spell
+nnmap("<F2>", ":set spell!<CR>")
 nnmap("s", ":w<CR>")
 nnmap("ss", ":wa<CR>")
 -- nnmap("ZZ", ":NvimTreeClose<CR>ZZ")
@@ -81,13 +83,15 @@ inmap("<C-h>", "<Left>")
 inmap("<C-l>", "<Right>")
 
 nnmap("oo", "o<Esc>")
-nnmap("<C-f>", ":GFiles<CR>")
-nnmap("<C-b>", ":Buffers<CR>")
+vim.keymap.set('n',"<C-b>", builtin.buffers, {})
+vim.keymap.set('n',"<C-f>", builtin.git_files, {})
+vim.keymap.set('n',"<C-s>", builtin.live_grep, {})
+
 nnmap("<C-t>", ":ToggleTerm<CR>")
-
 nnmap("U", ":UndotreeToggle<CR>")
-
 nnmap("<C-n>", ":NvimTreeToggle<CR>")
+
+nnmap("<C-e>", "<cmd>TroubleToggle<cr>")
 
 -- tnmap("<Esc>", "<C-\\><C-n>")
 --
@@ -103,7 +107,13 @@ end
 
 -- if you only want these mappings for toggle term use term://*toggleterm#* instead
 vim.cmd('autocmd! TermOpen term://*toggleterm#* lua set_terminal_keymaps()')
+vim.cmd('imap <silent><script><expr> <C-a> copilot#Accept("\\<CR>")')
 
-vim.api.nvim_command([[
-autocmd BufWritePost,FileWritePost *.js,*.jsx,*.ts,*.tsx silent! !prettier --write <afile>
-]])
+-- vim.cmd('autocmd BufWritePost,FileWritePost *.js,*.jsx,*.ts,*.tsx,*.mjs silent! !prettier --write <afile>')
+-- vim.api.nvim_command([[
+-- autocmd BufWritePost,FileWritePost *.js,*.jsx,*.ts,*.tsx,*.mjs silent! !prettier --write <afile>
+-- ]])
+
+-- vim.api.nvim_command([[
+--     autocmd BufWritePost,FileWritePost *.py silent! !black <afile>
+-- ]])

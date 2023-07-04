@@ -1,6 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export ANDROID_SDK_ROOT:/home/raptor/Android/Sdk
+SETUVAR --export --path LD_LIB_PATH:/opt/cuda/lib64
 SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_D:cd\x20\x7e/Downloads
 SETUVAR _fish_abbr_Doc:cd\x20\x7e/Documents
@@ -10,7 +11,7 @@ SETUVAR _fish_abbr_serv:cd\x20\x7e/program/servers
 SETUVAR _fish_abbr_setCaps:setxkbmap\x20\x2doption\x20caps\x3aescape
 SETUVAR _fish_abbr_store:cd\x20/mnt/store
 SETUVAR fish_color_autosuggestion:777777
-SETUVAR fish_color_cancel:\x2dr
+SETUVAR fish_color_cancel:\x2d\x2dreverse
 SETUVAR fish_color_command:00FF00
 SETUVAR fish_color_comment:30BE30
 SETUVAR fish_color_cwd:green
@@ -20,10 +21,12 @@ SETUVAR fish_color_error:A40000
 SETUVAR fish_color_escape:00a6b2
 SETUVAR fish_color_history_current:\x2d\x2dbold
 SETUVAR fish_color_host:normal
-SETUVAR fish_color_host_remote:yellow
+SETUVAR fish_color_host_remote:\x1d
+SETUVAR fish_color_keyword:\x1d
 SETUVAR fish_color_match:\x2d\x2dbackground\x3dbrblue
 SETUVAR fish_color_normal:normal
 SETUVAR fish_color_operator:00a6b2
+SETUVAR fish_color_option:\x1d
 SETUVAR fish_color_param:30BE30
 SETUVAR fish_color_quote:44FF44
 SETUVAR fish_color_redirection:7BFF7B
@@ -34,8 +37,16 @@ SETUVAR fish_color_user:brgreen
 SETUVAR fish_color_valid_path:\x2d\x2dunderline
 SETUVAR fish_greeting:
 SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_background:\x1d
 SETUVAR fish_pager_color_completion:normal
-SETUVAR fish_pager_color_description:B3A06D\x1eyellow
+SETUVAR fish_pager_color_description:B3A06D
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR fish_pager_color_secondary_background:\x1d
+SETUVAR fish_pager_color_secondary_completion:\x1d
+SETUVAR fish_pager_color_secondary_description:\x1d
+SETUVAR fish_pager_color_secondary_prefix:\x1d
+SETUVAR fish_pager_color_selected_background:\x2d\x2dreverse
+SETUVAR fish_pager_color_selected_completion:\x1d
+SETUVAR fish_pager_color_selected_description:\x1d
+SETUVAR fish_pager_color_selected_prefix:\x1d
