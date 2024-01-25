@@ -73,7 +73,7 @@ require("lazy").setup({
 
     {
         'nvim-telescope/telescope.nvim',
-        tag = '0.1.1',
+        tag = '0.1.4',
         dependencies = { 'nvim-lua/plenary.nvim' }
     },
 
@@ -192,7 +192,9 @@ require('telescope').setup {
 }
 
 require("keymaps")
-require("nvim-tree").setup()
+require("nvim-tree").setup({
+    update_focused_file = { enable = true }
+})
 require("toggleterm").setup()
 require("luasnip.loaders.from_snipmate").lazy_load({ paths = "~/.config/nvim/UltiSnips" })
 -- require('onedark').load()

@@ -40,7 +40,7 @@ font-2 = "Siji:style=Regular:size=15"
 modules-left = i3
 ; modules-center = filesystem
 ; modules-right = xbacklight pulseaudio netspeed diskusage memory cpu wlan battery date
-modules-right = xbacklight pulseaudio netspeed diskusage memory cpu wlan battery date
+modules-right = xbacklight pulseaudio netspeed diskusage memory cpu nvidia wlan battery date
 
 tray-position = right
 tray-padding = 2
@@ -126,6 +126,15 @@ type = custom/script
 exec = r_netSpeed 3
 interval = 3
 format-prefix = "NET:"
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #4bffdc
+label = %output%
+
+[module/nvidia]
+type = custom/script
+exec = r_nvidia
+interval = 2
+format-prefix = "GPU:"
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #4bffdc
 label = %output%
