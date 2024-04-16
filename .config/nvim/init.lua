@@ -34,7 +34,7 @@ require("lazy").setup({
     "navarasu/onedark.nvim",
     "tribela/vim-transparent",
     { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
-    "tpope/vim-fugitive",
+    -- "tpope/vim-fugitive",
     "github/copilot.vim",
     "mbbill/undotree",
 
