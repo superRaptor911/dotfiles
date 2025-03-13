@@ -39,8 +39,10 @@ style = "Bold"
 [font.normal]
 family = "fira code"
 
-[shell]
+[terminal.shell]
 program = "/bin/fish"
 
 [window]
 opacity = 0.7
+
+[terminal]

@@ -14,4 +14,6 @@ alias lf="lfrun"
 alias react="cd ~/program/react/"
 setxkbmap -option caps:escape
 # source /usr/share/nvm/init-nvm.sh
-
+zoxide init fish | source
+alias cd="z"
+alias neofetch="fastfetch"

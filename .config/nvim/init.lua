@@ -32,6 +32,7 @@ require("lazy").setup({
     "sainnhe/edge",
     "dracula/vim",
     "navarasu/onedark.nvim",
+    "catppuccin/nvim",
     "tribela/vim-transparent",
     { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
     -- "tpope/vim-fugitive",
@@ -151,9 +152,7 @@ lsp.format_on_save({
     servers = {
         ['lua_ls'] = { 'lua' },
         ['rust_analyzer'] = { 'rust' },
-        -- if you have a working setup with null-ls
-        -- you can specify filetypes it can format.
-        -- ['null-ls'] = {'javascript', 'typescript'},
+        ['eslint'] = { 'javascript', 'typescript' },
     }
 })
 
