@@ -192,13 +192,14 @@ bindsym Control+Mod1+i exec gimp
 bindsym Control+Mod1+v exec code
 bindsym Control+Mod1+a exec android-studio
 bindsym Control+Mod1+g exec godot
+bindsym Control+Mod1+s exec /home/raptor/layout-2.sh
 
 # Keyboard backlight 
 bindsym Scroll_Lock exec xset led 3
 bindsym --release Shift+Scroll_Lock exec xset -led 3
 
 # Lock / Power off / Hibernate
-bindsym Control+Mod1+Shift+l exec i3lock -i ~/Pictures/dark_wallpaper1.png
+bindsym Control+Mod1+Shift+l exec i3lock -i /home/raptor/Pictures/wallpapers/lion4k.jpg
 bindsym Control+Mod1+Shift+p exec r_poweroff
 bindsym Control+Mod1+Shift+h exec r_hibernate
 

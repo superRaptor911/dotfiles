@@ -17,3 +17,5 @@ setxkbmap -option caps:escape
 zoxide init fish | source
 alias cd="z"
 alias neofetch="fastfetch"
+
+thefuck --alias | source
