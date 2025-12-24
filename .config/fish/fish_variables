@@ -1,6 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export ANDROID_SDK_ROOT:/home/raptor/Android/Sdk
+SETUVAR --export EDITOR:nvim
 SETUVAR --export --path LD_LIB_PATH:/opt/cuda/lib64
 SETUVAR __fish_initialized:3800
 SETUVAR _fish_abbr_D:cd\x20\x7e/Downloads

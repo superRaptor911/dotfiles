@@ -1,0 +1,34 @@
+#!/bin/sh
+# run lf with support for ueberzug image previews.
+
+# config
+tmp="${XDG_RUNTIME_DIR:-/tmp}/lf"
+export FIFO="$tmp/fifo-$$"
+
+main()
+{
+    case "$1" in
+        -remote|-doc|-version|-server|-help) lf "$@"; return ;;
+    esac
+    preview_init
+    lf "$@"
+}
+
+preview_init()
+{
+    [ -z "$DISPLAY" ] || ! command -v ueberzug >/dev/null && return 1
+    mkdir -pm700 "$tmp" || return 1
+    mkfifo -m600 "$FIFO" || return 1
+    trap cleanup EXIT
+    sleep inf > "$FIFO" &
+    pid=$!
+    ueberzug layer -s < "$FIFO" &
+}
+
+cleanup()
+{
+    rm -f "$FIFO"
+    kill $pid
+}
+
+main "$@"
