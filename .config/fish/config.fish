@@ -6,7 +6,7 @@ set -gx ANDROID_SDK_ROOT $HOME/Android/Sdk/
 set -gx PATH $PATH $ANDROID_SDK_ROOT/platform-tools
 set -gx PATH $PATH $ANDROID_SDK_ROOT/emulator
 set -gx BROWSER /usr/bin/brave
-set -gx DESH_NPM_TOKEN gldt-SKYj2AB12t_j5zxdV4uy
+set -gx DESH_NPM_TOKEN glpat-2vqnMnw16yzTVf6Mu7w4RG86MQp1OjgweXhyCw.01.120s5gf2k
 
 set EDITOR nvim
 

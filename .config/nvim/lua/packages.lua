@@ -86,5 +86,10 @@ require("lazy").setup({
             },
         },
         cmd = { "CsvViewEnable", "CsvViewDisable", "CsvViewToggle" },
-    }
+    },
+    {
+        "esmuellert/codediff.nvim",
+        dependencies = { "MunifTanjim/nui.nvim" },
+        cmd = "CodeDiff",
+    },
 }, {})
